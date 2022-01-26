@@ -1,0 +1,18 @@
+import turtle as t
+t.tracer(4)
+t.width(3)
+t.setup(1537,865)
+t.pencolor('cyan')
+t.bgcolor('black')
+for i in range(2003):
+    t.fd(i)
+    t.rt(90)
+    t.fd(i)
+    t.rt(90)
+    t.fd(i)
+    t.rt(270)
+    t.fd(i)
+    t.rt(90)
+    t.fd(i)
+    t.circle(100,90)
+turtle.done()
